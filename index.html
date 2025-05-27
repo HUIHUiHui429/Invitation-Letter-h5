@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>邀请函</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="book-wrapper">
+    <div id="flipbook">
+      <div class="page"><img src="images/page1.jpg" alt="page 1"></div>
+      <div class="page"><img src="images/page2.jpg" alt="page 2"></div>
+      <div class="page"><img src="images/page3.jpg" alt="page 3"></div>
+      <div class="page"><img src="images/page4.jpg" alt="page 4"></div>
+    </div>
+    <div id="nextHint"><img src="images/next.png"></div>
+  </div>
+
+  <div id="music-toggle">
+    <img id="music-icon" src="images/music-on.png" alt="音乐开关">
+  </div>
+
+  <audio id="bg-music" src="music/bg.mp3" loop preload="auto"></audio>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="lib/turn.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
